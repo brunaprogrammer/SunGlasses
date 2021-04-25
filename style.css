@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #363636;
+    font-family: "Georgia";
+    
+}
+
+.cbclh{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desnv{
+    color: #d3d3d3;
+    font-family: "Georgia",  Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    padding: 20px;
+}
+
+.logotipo{
+    text-align: center;
+}
+
+h1{
+    color: #D3D3D3;
+    font-size: 40px;
+    justify-items: center;
+    padding: 405px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+span{
+    font-weight:800;
+}
+
+.behance{
+    color: #d3d3d3;
+    font-family: "Georgia",  Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.segundaparte{
+    border-bottom: solid 0.5px #D3D3D3;
+    text-align: right;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+     
+
+}
+
+.container{
+    color: #D3D3D3;
+    text-decoration: none;
+    font-family: "Georgia",  Times, serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+
+}
+
+nav a{
+    color: #D3D3D3;
+    text-decoration: none;
+    margin: 100px;
+    font-family: "Georgia",  Times, serif;
+    font-weight:bold;   
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#oculos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+#carrosel{
+    
+    margin: 50px 400px;
+    color: #D3D3D3;
+    cursor: pointer;
+}
+
+.glasses{
+    width: 50%;
+    padding: 150px 0 0 0;
+}
+
+.especificacoes{
+    color: #D3D3D3;
+    font-family: "Georgia",  Times, serif;
+    font-size: 16px;
+    width: 20%;
+    padding: 40px;
+}
+
+.especificacoes p{
+    padding: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.deslocado{
+    
+    font-family: "Georgia",  Times, serif;
+    padding: 300px 0 0 0;
+    font-size: 19px;
+    justify-content: flex-end;
+    
+}
+
+.large{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#trezentos{
+    margin: 0 250px;
+    cursor: pointer;
+}
+
+.valor{
+    color: #D3D3D3;
+    font-family: "Georgia",  Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 5%;
+    padding: 50px;
+}
+
+.botao{
+    color: #D3D3D3;
+    font-family: "Georgia",  Times, serif;
+    font-size: 16px;
+    padding: 50px;
+    padding-right: 300px;
+    width: 5%;
+    
+}
+
+#buto{
+    cursor: pointer;
+}
+
+#explore{
+    margin-top: 500px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ultima{
+    width: 20%;
+    color: #acacac;
+    font-family: "Georgia",  Times, serif;
+    background-color: #272727;
+    padding: 40px;
+    
+    
+}
+
+.ultima p{
+    padding: 5px;
+}
+
+#arrow{
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
+
+
+footer{
+    border-top: solid 0.5px #D3D3D3;
+    padding: 20px;
+    
+}
+
+@media only screen and (max-width: 760px){
+
+    .cbclh{
+        display:none;
+    }
+
+    img{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .segundaparte{
+        justify-content: center;
+    }
+
+    section{
+        flex-direction: column;        
+    }
+
+    .especificacoes{
+        display: flex;
+    }
+
+    #trezentos{
+        display: none;
+    }
+
+}
